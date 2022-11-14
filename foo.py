@@ -6,6 +6,7 @@ a = 1
 b = 2
 assert a == 1
 breakpoint()
+breakpoint()
 print(b, nums)
 
 def baz(a=[]):
