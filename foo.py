@@ -21,8 +21,6 @@ def foo(b=[]):
 
 def bar(a):
   return 1
-
-import os
 filename = os.tmpnam()
 with open(filename, 'w') as f:
   pass
