@@ -14,7 +14,7 @@ AWS_SECRET_KEY = "d6s$f9g!j8mg7hw?n&2"
 
 
 class BaseNumberGenerator:
-    """Declare a method -- `get_number`."""
+       """Declare a method -- `get_number`."""
 
     def __init__(self):
         self.limits = (1, 10)
@@ -23,7 +23,7 @@ class BaseNumberGenerator:
         raise NotImplementedError
 
     def smethod():
-        """static method-to-be"""
+           """static method-to-be"""
 
     smethod = staticmethod(smethod)
 
