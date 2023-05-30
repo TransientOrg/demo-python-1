@@ -12,7 +12,9 @@ print(b, nums)
 def baz(a=[]):
   return 0
 
-def aaa(a=[]):
+def aaa( a = []):
+  
+  
   return 1
 
 
