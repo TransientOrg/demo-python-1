@@ -41,3 +41,5 @@ def another_test_method():
   
 filename = os.tmpnam()
 
+def bam(a = []):
+  print(a)
