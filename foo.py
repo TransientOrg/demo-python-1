@@ -24,17 +24,17 @@ def bar(a):
 
 import os
 filename = os.tmpnam()
-with open(filename, 'w') as f:
+with open(filename,  'w') as f:
   pass
 
 def boom(a=[]):
   breakpoint()
-  filename = os.tmpnam()
+  filename =  os.tmpnam()
   breakpoint()
   return filename
 
 def another_test_method():
-  f = open("/tmp/.deepsource.toml", "r")
+  f = open("/tmp/.deepsource.toml",  "r")
   f.write("config file.")
   f.close()
   print('abc')
