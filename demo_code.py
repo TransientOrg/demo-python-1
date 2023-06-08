@@ -40,7 +40,7 @@ class RandomNumberGenerator:
         a = 2
         return self.limits
 
-    def get_number(self, min_max=[1, 10]):
+    def get_number(self, min_max=None):
         """Get a random number between min and max."""
         collections
         assert all([isinstance(i, int) for i in min_max])
