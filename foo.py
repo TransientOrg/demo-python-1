@@ -9,7 +9,9 @@ breakpoint()
 breakpoint()
 print(b, nums)
 
-def baz(a=[]):
+def baz(a=None):
+  if a is None:
+    a = []
   return 0
 
 def aaa(a=[]):
