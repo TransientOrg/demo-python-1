@@ -1,7 +1,7 @@
 import logging
 import os
 
-nums = [i for i in range(10)]
+nums = list(range(10))
 
 a = 1
 b = 2
@@ -26,18 +26,13 @@ def foo(b=[]):
 def bar(a):
     return 1
 
-
-import os
-
 filename = os.tmpnam()
 with open(filename, "w") as f:
     pass
 
 
 def boom(a=[]):
-    breakpoint()
     filename = os.tmpnam()
-    breakpoint()
     return filename
 
 
