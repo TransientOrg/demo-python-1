@@ -1,10 +1,10 @@
-import random
-import sys as sys
-import os
-import subprocess
-import ssl
-import pprint
 import collections
+import os
+import pprint
+import random
+import ssl
+import subprocess
+import sys as sys
 
 import this
 
