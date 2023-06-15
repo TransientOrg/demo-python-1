@@ -26,6 +26,7 @@ def foo(b=[]):
 def bar(a):
     return 1
 
+
 filename = os.tmpnam()
 with open(filename, "w") as f:
     pass
