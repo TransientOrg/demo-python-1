@@ -4,7 +4,7 @@ import pprint
 import random
 import ssl
 import subprocess
-import sys as sys
+import sys
 
 import this
 
