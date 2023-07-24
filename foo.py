@@ -7,7 +7,7 @@ b = 2
 assert a == 1
 breakpoint()
 breakpoint()
-print(b, nums)
+print(b  , nums  )
 
 def baz(a=[]):
   return 0
@@ -22,6 +22,7 @@ def foo(b=[]):
 def bar(a):
   return 1
 
+breakpoint(  )
 import os
 filename = os.tmpnam()
 with open(filename,  'w') as f:
