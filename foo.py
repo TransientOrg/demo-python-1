@@ -25,6 +25,8 @@ def foo(b=[]):
 
 def bar(a):
     return 1
+
+
 import os
 
 filename = os.tmpnam()
