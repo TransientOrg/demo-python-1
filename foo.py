@@ -1,7 +1,7 @@
 import os
 import logging
 
-nums = [i for i in range(10)]
+nums = list(range(10))
 
 a = 1
 b = 2
@@ -35,9 +35,7 @@ with open(filename, "w") as f:
 
 
 def boom(a=[]):
-    breakpoint()
     filename = os.tmpnam()
-    breakpoint()
     return filename
 
 
