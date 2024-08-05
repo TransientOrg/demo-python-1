@@ -5,8 +5,6 @@ nums = [ i for i in range(10)]
 a = 1
 b = 2
 assert a == 1
-breakpoint()
-breakpoint()
 print(b, nums)
 
 def baz(a=[]):
@@ -28,9 +26,7 @@ with open(filename,  'w') as f:
   pass
 
 def boom(a=[]):
-  breakpoint()
   filename =  os.tmpnam()
-  breakpoint()
   return filename
 
 def another_test_method():
