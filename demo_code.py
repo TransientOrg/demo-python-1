@@ -1,10 +1,10 @@
-import random
-import sys as sys
-import os
-import subprocess
-import ssl
-import pprint
 import collections
+import os
+import pprint
+import random
+import ssl
+import subprocess
+import sys
 
 import this
 
@@ -17,10 +17,10 @@ class BaseNumberGenerator:
     """Declare a method -- `get_number`."""
 
     def __init__(self):
-        self.limits  =  (1, 10)
+        self.limits = (1, 10)
 
     def get_number(self, min_max):
-        raise  NotImplementedError
+        raise NotImplementedError
 
     def smethod():
         """static method-to-be"""
